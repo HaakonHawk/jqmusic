@@ -16,7 +16,7 @@ A simple and easy to use music player in Jquery.
   
 ## How to use
 
-1. Link the source files within your html <head> tags:
+1. Link the source files within your html &lt;head&gt; tags:
 
 ```html
 <link rel="stylesheet" href="css/jqmusic.min.css" type="text/css"/>
@@ -62,7 +62,7 @@ Choose whether or not to display the artist, title and cover image (if available
 ```js
 var displaymeta = false;
 ```
-NOTE: If you set this to true, you also need to include [JSMediaTags](https://github.com/aadsm/jsmediatags) within your <head> tags like this:
+NOTE: If you set this to true, you also need to include [JSMediaTags](https://github.com/aadsm/jsmediatags) within your &lt;head&gt; tags like this:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.7.0/jsmediatags.min.js"></script>
