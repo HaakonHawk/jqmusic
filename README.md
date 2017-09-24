@@ -2,7 +2,7 @@
 
 A simple and easy to use music player in Jquery.
 
-# Features
+## Features
 
   - Can be integrated on any site that supports custom Javascript.
   - Choose between two built in themes (dark or light).
@@ -10,7 +10,7 @@ A simple and easy to use music player in Jquery.
   - Skip, Repeat or Shuffle as you please.
   - Use Font Awesome icons for the buttons (disabled by default)
   
-# How to use
+## How to use
 
 1. Link the source files within your html <head> tags:
 
@@ -30,7 +30,7 @@ A simple and easy to use music player in Jquery.
 
 4. Configure options.
 
-# Configuration
+## Configuration
 
 Inside the config.js file is where you'd configure your options.
 
