@@ -10,3 +10,11 @@ A simple and easy to use music player in Jquery.
   - Skip, Repeat or Shuffle as you please.
   - Use Font Awesome icons for the buttons (disabled by default)
   
+### How to use
+
+Link the source files within your html <head> tags:
+
+```html
+<link rel="stylesheet" href="css/jqmusic.min.css" type="text/css"/>
+<script src="js/jqmusic.min.js"></script>
+```
