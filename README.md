@@ -90,7 +90,6 @@ The configuration example above should give you something like this.
   - That happens if there is no title or artist within the audio track's meta tags.
   
   Why does artist and title show "N/A"?
-  - This happens if the script failed find anything within the audio track's meta tags. This is a problem with the
-  jsmediatags library and is unfortunately beyond my control.
+  - This is short for "Not Available" and happens if the script failed find anything within the audio track's meta tags. This is a problem with the jsmediatags library and is unfortunately beyond my control.
   
   
