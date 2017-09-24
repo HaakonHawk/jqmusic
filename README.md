@@ -10,6 +10,10 @@ A simple and easy to use music player in Jquery.
   - Skip, Repeat or Shuffle as you please.
   - Use Font Awesome icons for the buttons (disabled by default)
   
+## Requirements
+
+  - JQuery (duh)
+  
 ## How to use
 
 1. Link the source files within your html <head> tags:
@@ -34,5 +38,47 @@ A simple and easy to use music player in Jquery.
 
 Inside the config.js file is where you'd configure your options.
 
+Choose whether or not you want to use Font Awesome icons for the control buttons:
+This requires that Font Awesome is loaded on your page.
 
+```js
+var usefa = true;
+```
 
+The ID or class of the element where the music player will be loaded:
+
+```js
+var loadto = "#jqmusic";
+```
+
+Define where the script will look for audio files:
+
+```js
+var tracklocation = "tracks/";
+```
+
+Choose whether or not to display the artist, title and cover image (if available):
+
+```js
+var displaymeta = false;
+```
+NOTE: If you set this to true, you also need to include [JSMediaTags](https://github.com/aadsm/jsmediatags) within your <head> tags like this:
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.7.0/jsmediatags.min.js"></script>
+```
+
+Choose which theme to use:
+The options are "dark", "light" or "custom". "custom" means that no css will be applied to the player. So you can fully customize it yourself.
+
+```js
+var theme = "dark";
+```
+
+## Demo
+
+The configuration example above should give you something like this.
+
+[![N|Solid](https://i.haakonhawk.com/jqmusic.png)](https://www.haakonhawk.com/jqmusic/demo/)
+
+### [View Demo](https://www.haakonhawk.com/jqmusic/demo/)
