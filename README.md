@@ -82,3 +82,15 @@ The configuration example above should give you something like this.
 [![N|Solid](https://i.haakonhawk.com/jqmusic.png)](https://www.haakonhawk.com/jqmusic/demo/)
 
 ### [View Demo](https://www.haakonhawk.com/jqmusic/demo/)
+
+
+## Troubleshooting
+
+  Why does artist or title show "Unknown"?
+  - That happens if there is no title or artist within the audio track's meta tags.
+  
+  Why does artist and title show "N/A"?
+  - This happens if the script failed find anything within the audio track's meta tags. This is a problem with the
+  jsmediatags library and is unfortunately beyond my control.
+  
+  
