@@ -25,6 +25,7 @@
 	font-size:16px;
 	outline:none;
 	width:20%;
+	cursor:pointer;
 }
 .jsmusicPlayer-dark .shuffle {
 	background-color:#585858;
@@ -83,6 +84,7 @@
 	font-size:16px;
 	outline:none;
 	width:20%;
+	cursor:pointer;
 }
 .jsmusicPlayer-light .shuffle {
 	background-color:#D8D8D8;
