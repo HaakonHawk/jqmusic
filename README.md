@@ -81,7 +81,7 @@ The configuration example above should give you something like this.
 
 [![N|Solid](https://i.haakonhawk.com/jqmusic.png)](https://www.haakonhawk.com/jqmusic/demo/)
 
-### [View Demo](https://haakonhawk.github.io/jqmusic/demo/)
+### [View Demo](http://haakonhawk.com/jqmusic/demo/)
 
 
 ## Troubleshooting
